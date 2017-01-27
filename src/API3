@@ -1,0 +1,21 @@
+public_profile,user_friends,email,user_about_me,user_actions.books,user_actions.fitness,user_actions.music,user_actions.news,user_actions.video,user_actions:{app_namespace},user_birthday,user_education_history,user_events,user_games_activity,user_hometown,user_likes,user_location,user_managed_groups,user_photos,user_posts,user_relationships,user_relationship_details,user_religion_politics,user_tagged_places,user_videos,user_website,user_work_history,read_custom_friendlists,read_insights,read_audience_network_insights,read_page_mailboxes,manage_pages,publish_pages,publish_actions,rsvp_event,pages_show_list,pages_manage_cta,ads_read,ads_management
+
+https://www.facebook.com/dialog/oauth?
+    client_id={app-id}
+   &amp;redirect_uri={redirect-uri}
+
+https://www.facebook.com/dialog/oauth?client_id=335434803247454&redirect_uri=https://www.google.fi/&granted_scopes=public_profile,user_friends,email,user_about_me,user_actions.books,user_actions.fitness,user_actions.music,user_actions.news,user_actions.video,user_actions:{app_namespace},user_birthday,user_education_history,user_events,user_games_activity,user_hometown,user_likes,user_location,user_managed_groups,user_photos,user_posts,user_relationships,user_relationship_details,user_religion_politics,user_tagged_places,user_videos,user_website,user_work_history,read_custom_friendlists,read_insights,read_audience_network_insights,read_page_mailboxes,manage_pages,publish_pages,publish_actions,rsvp_event,pages_show_list,pages_manage_cta,ads_read,ads_management
+
+https://www.google.fi/?code=AQDBgVREbV3gsHnqXJMvMle7WBvKrf_OPydRkQJdNehIKyFsKbPXCU4yGeOKUHnRi1bs5-M8bzlrjXblJEV_MZ3gzC1zbl3DsUPmOnYniUf-VwJ7OnnekHuASyFWzO49D4IdSjlAXFMquHhHmzFaR_bSJBkP7QDSJ7gDB2sMCfQqnAuOcK-Sv4qOgj_eMYPuv254sSpzkucz_cOn26BKbvBfn9ugTKb7juA95D8Qx-ObVwNlVhTvdyL-eGdfI0YG-zNmMVtNwLglQg4lC2aL77G90rXjXHgyS23lic03zotFpzdm6gXDzRyBGp8f2tYDkogir_ARkDXV9iyvW6gEFDsE#_=_
+
+https://graph.facebook.com/v2.3/oauth/access_token?
+    client_id={app-id}
+   &amp;redirect_uri={redirect-uri}
+   &amp;client_secret={app-secret}
+   &amp;code={code-parameter}
+
+https://graph.facebook.com/v2.3/oauth/access_token?client_id=335434803247454
+&redirect_uri=https://www.google.fi/&client_secret=970acf6f184e1d2160f229f5196fc089
+&code=AQDBgVREbV3gsHnqXJMvMle7WBvKrf_OPydRkQJdNehIKyFsKbPXCU4yGeOKUHnRi1bs5-M8bzlrjXblJEV_MZ3gzC1zbl3DsUPmOnYniUf-VwJ7OnnekHuASyFWzO49D4IdSjlAXFMquHhHmzFaR_bSJBkP7QDSJ7gDB2sMCfQqnAuOcK-Sv4qOgj_eMYPuv254sSpzkucz_cOn26BKbvBfn9ugTKb7juA95D8Qx-ObVwNlVhTvdyL-eGdfI0YG-zNmMVtNwLglQg4lC2aL77G90rXjXHgyS23lic03zotFpzdm6gXDzRyBGp8f2tYDkogir_ARkDXV9iyvW6gEFDsE#_=_
+
+{"access_token":"CAAExE4BKZBV4BANEtig04GNZCPb0Us12WPhwrsftuWBBAwNr3iCiucZAmQXw0y4ohM0U1rshycTPh7ZCZBJ33ojbB7xwAiLGk4YqAYbzfUuoydpZBBly6EyHkhOz7ix04YEgSbaWHkYF5AxaYTr8HlnEJCql23aXxduYkCvr6P8y4XPHMPqauZAUOmEyskTFDVZAqKI81iRI5gZDZD","token_type":"bearer","expires_in":5183950}
